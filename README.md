@@ -20,13 +20,13 @@
 3. 將第二步取得的 "執行檔", 使用 IDA PRO 開啟反編譯
 4. 在 IDA PRO function 視窗中, 搜索相關方法, 這邊運氣很好, 直接搜索 "jail", 就找出相關方法了
 5. 打開 Xcode 創建 MonkeyDev 自帶的 Logos Tweak 專案
-6. 在 ".xm" 中撰寫需修改的方法
+6. 在 ".xm" 中撰寫需修改的方法<br>
 ![撰寫](https://github.com/s2339956/RichartNotJailbroken/blob/master/image/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7%202018-09-18%20%E4%B8%8B%E5%8D%884.05.53.png?raw=true)
-7. Package -> Library -> MobileSubstrate -> DynamicLibraries -> ".plist" 設置目標 app Bundle
+7. Package -> Library -> MobileSubstrate -> DynamicLibraries -> ".plist" 設置目標 app Bundle<br>
 ![設置目標appBundle](https://github.com/s2339956/RichartNotJailbroken/blob/master/image/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7%202018-09-18%20%E4%B8%8B%E5%8D%884.05.02.png?raw=true)
 8. 運行專案
 9. 打開專案資料夾 Packages, 找到 ".deb" 
-10. 上傳至 BigBoss源
+10. 上傳至 BigBoss源<br>
 ![BigBoss源](https://github.com/s2339956/RichartNotJailbroken/blob/master/image/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7%202018-09-18%20%E4%B8%8B%E5%8D%884.06.40.png?raw=true)
 <br>
 以上步驟就完成了 一個插件的開發<br>
