@@ -2,6 +2,7 @@
 
 遮蔽 Richart app 偵測越獄設備, 使得禁用某些功能<br>
 此專案只是一個學術研究, 請勿作為商業用途<br>
+插件已上架至BigBoss源, 名稱是"TinXieNotNotJailbrokenRichartDog"
 
 # 思路
 
