@@ -1,4 +1,4 @@
-#line 1 "/Users/tinxie/Desktop/RichartNotJailbroken/RichartNotJailbroken/RichartNotJailbroken.xm"
+#line 1 "/Users/tinxie/Downloads/RichartNotJailbroken/RichartNotJailbroken/RichartNotJailbroken.xm"
 
 
 #if TARGET_OS_SIMULATOR
@@ -31,7 +31,7 @@
 @class JailbreakDetection; @class ClassName; 
 static id (*_logos_meta_orig$_ungrouped$ClassName$sharedInstance)(_LOGOS_SELF_TYPE_NORMAL Class _LOGOS_SELF_CONST, SEL); static id _logos_meta_method$_ungrouped$ClassName$sharedInstance(_LOGOS_SELF_TYPE_NORMAL Class _LOGOS_SELF_CONST, SEL); static void (*_logos_orig$_ungrouped$ClassName$messageWithNoReturnAndOneArgument$)(_LOGOS_SELF_TYPE_NORMAL ClassName* _LOGOS_SELF_CONST, SEL, id); static void _logos_method$_ungrouped$ClassName$messageWithNoReturnAndOneArgument$(_LOGOS_SELF_TYPE_NORMAL ClassName* _LOGOS_SELF_CONST, SEL, id); static id (*_logos_orig$_ungrouped$ClassName$messageWithReturnAndNoArguments)(_LOGOS_SELF_TYPE_NORMAL ClassName* _LOGOS_SELF_CONST, SEL); static id _logos_method$_ungrouped$ClassName$messageWithReturnAndNoArguments(_LOGOS_SELF_TYPE_NORMAL ClassName* _LOGOS_SELF_CONST, SEL); static _Bool (*_logos_orig$_ungrouped$JailbreakDetection$jailbroken)(_LOGOS_SELF_TYPE_NORMAL JailbreakDetection* _LOGOS_SELF_CONST, SEL); static _Bool _logos_method$_ungrouped$JailbreakDetection$jailbroken(_LOGOS_SELF_TYPE_NORMAL JailbreakDetection* _LOGOS_SELF_CONST, SEL); 
 
-#line 9 "/Users/tinxie/Desktop/RichartNotJailbroken/RichartNotJailbroken/RichartNotJailbroken.xm"
+#line 9 "/Users/tinxie/Downloads/RichartNotJailbroken/RichartNotJailbroken/RichartNotJailbroken.xm"
 
 
 
@@ -75,4 +75,4 @@ static _Bool _logos_method$_ungrouped$JailbreakDetection$jailbroken(_LOGOS_SELF_
 
 static __attribute__((constructor)) void _logosLocalInit() {
 {Class _logos_class$_ungrouped$ClassName = objc_getClass("ClassName"); Class _logos_metaclass$_ungrouped$ClassName = object_getClass(_logos_class$_ungrouped$ClassName); MSHookMessageEx(_logos_metaclass$_ungrouped$ClassName, @selector(sharedInstance), (IMP)&_logos_meta_method$_ungrouped$ClassName$sharedInstance, (IMP*)&_logos_meta_orig$_ungrouped$ClassName$sharedInstance);MSHookMessageEx(_logos_class$_ungrouped$ClassName, @selector(messageWithNoReturnAndOneArgument:), (IMP)&_logos_method$_ungrouped$ClassName$messageWithNoReturnAndOneArgument$, (IMP*)&_logos_orig$_ungrouped$ClassName$messageWithNoReturnAndOneArgument$);MSHookMessageEx(_logos_class$_ungrouped$ClassName, @selector(messageWithReturnAndNoArguments), (IMP)&_logos_method$_ungrouped$ClassName$messageWithReturnAndNoArguments, (IMP*)&_logos_orig$_ungrouped$ClassName$messageWithReturnAndNoArguments);Class _logos_class$_ungrouped$JailbreakDetection = objc_getClass("JailbreakDetection"); MSHookMessageEx(_logos_class$_ungrouped$JailbreakDetection, @selector(jailbroken), (IMP)&_logos_method$_ungrouped$JailbreakDetection$jailbroken, (IMP*)&_logos_orig$_ungrouped$JailbreakDetection$jailbroken);} }
-#line 50 "/Users/tinxie/Desktop/RichartNotJailbroken/RichartNotJailbroken/RichartNotJailbroken.xm"
+#line 50 "/Users/tinxie/Downloads/RichartNotJailbroken/RichartNotJailbroken/RichartNotJailbroken.xm"
