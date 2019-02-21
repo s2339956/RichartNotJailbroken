@@ -1,7 +1,7 @@
 Package: s2339956.com.tw.RichartNotJailbroken
 Name: RichartNotJailbroken
-Version: 0.1-1
-Description: 
+Version: 0.1.1
+Description: Ruchart & 富邦行動銀反越獄偵測(Anti-jail detection)
 Section: System
 Depends: firmware (>= 5.0), mobilesubstrate
 Conflicts: 
